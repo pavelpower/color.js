@@ -4,8 +4,8 @@ build:
 	borschik -t js -i color.js -o color.min.js
 
 test: build
-	cp ./gradient.js ./tests/gradient.js
-	coffee ./tests/gradient-test.coffee
+	cp ./color.js ./tests/color.js
+	coffee ./tests/color-test.coffee
 
 
 .PHONY: build
