@@ -1,0 +1,26 @@
+{
+    "author": {
+        "name": "Pavel Akhmetchanov",
+        "email": "pavel.power@gmail.com",
+        "url": "https://github.com/pavelpower"
+    },
+    "name": "color",
+    "description": "Javascript, operations with color",
+    "version": "0.0.1",
+    "homepage": "https://github.com/pavelpower/color.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pavelpower/color.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "jossy": "*",
+        "mocha": "*",
+        "chai": "*",
+        "borschik": "*"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
