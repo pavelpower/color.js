@@ -23,8 +23,6 @@ colors = Color.gradient colorA, colorB, steps
 
 assert.isArray colors
 
-console.log colors[0].toString.toString()
-
 arrayEqual = (a, b) ->
   a.length is b.length and a.every (elem, i) -> console.log elem.toString(), b[i], elem is b[i]
 
